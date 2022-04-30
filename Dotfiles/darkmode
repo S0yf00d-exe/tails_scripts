@@ -10,7 +10,8 @@ mkdir .config/gtk-3.0
 cp ~/.config/dconf/user .config/dconf/
 #
 cd /live/persistence/TailsData_unlocked/dotfiles
-touch config/gtk-3.0/settings.ini
+cd config/gtk-3.0
+touch settings.ini
 echo '[Settings]
 gtk-application-prefer-dark-theme = true
 gtk-theme-name = Adwaita-dark' | tee -a config/gtk-3.0/settings.ini
