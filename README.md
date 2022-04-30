@@ -1,2 +1,2 @@
 # tails_scripts
-Useful Tails Scripts
+Useful Tails configs for Dotfiles/scripts
