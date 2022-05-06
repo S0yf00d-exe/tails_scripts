@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p Persistent/scripts/
+mkdir -p /home/amnesia/Persistent/scripts/
 
 cd Persistent/scripts/
 
@@ -18,7 +18,7 @@ user_pref(\"permissions.default.microphone\", 2);
 user_pref(\"permissions.default.xr\", 2);
 user_pref(\"media.autoplay.default\", 5);
 user_pref(\"webgl.disabled", true);\" 
-user_pref("javascript.enabled", false);" >> /home/amnesia/.tor-browser/profile.default/user.js' | tee -a Persistent/scripts/browser-preferences.sh
+user_pref("javascript.enabled", false);" >> /home/amnesia/.tor-browser/profile.default/user.js' | tee -a /home/amnesia/Persistent/scripts/browser-preferences.sh
 
 chmod +x Persistent/scripts/browser-preferences.sh
 mkdir -p /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
