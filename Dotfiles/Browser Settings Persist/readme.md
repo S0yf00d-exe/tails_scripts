@@ -1,7 +1,7 @@
 # Make Tor Brower Preferences persist each Reboot without persisting your `prefs.js` file which can change or have new features added with each update to the Tor Browser.
 
 
-**These scripts automate and set autostart Dotfile that set these settings in the browser so you don't have to spend time tweaking each time saving you time eachboot.**
+**These scripts automate and set up autostart Dotfile that set these settings in the browser so you don't have to spend time tweaking each time saving you time eachboot.**
  
 - Set Safest Security Level
 
