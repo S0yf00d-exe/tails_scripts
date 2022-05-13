@@ -19,7 +19,7 @@ user_pref(\"permissions.default.xr\", 2);
 user_pref(\"media.autoplay.default\", 5);
 user_pref(\"webgl.disabled\", true);" >> /home/amnesia/.tor-browser/profile.default/user.js' | tee -a /home/amnesia/Persistent/scripts/browser-preferences.sh
 
-chmod +x Persistent/scripts/browser-preferences.sh
+chmod +x /home/amnesia/Persistent/scripts/browser-preferences.sh
 mkdir -p /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
 cd /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
 touch browser-preferences.desktop
