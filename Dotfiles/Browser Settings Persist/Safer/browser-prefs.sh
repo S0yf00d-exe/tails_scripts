@@ -20,7 +20,7 @@ user_pref(\"webgl.disabled\", true);
 user_pref(\"media.peerconnection.enabled\", false);
 user_pref(\"media.navigator.enabled\", false);"' >> /home/amnesia/.tor-browser/profile.default/user.js | tee -a /home/amnesia/Persistent/scripts/browser-preferences.sh
 
-chmod +x Persistent/scripts/browser-preferences.sh
+chmod +x /home/amnesia/Persistent/scripts/browser-preferences.sh
 mkdir -p /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
 cd /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
 touch browser-preferences.desktop
