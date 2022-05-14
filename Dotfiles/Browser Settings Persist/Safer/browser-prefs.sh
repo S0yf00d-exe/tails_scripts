@@ -2,7 +2,7 @@
 
 mkdir -p /home/amnesia/Persistent/scripts/
 
-cd Persistent/scripts/
+cd /home/amnesia/Persistent/scripts/
 
 touch browser-preferences.sh
 echo '#!/bin/bash 
@@ -18,7 +18,7 @@ user_pref(\"permissions.default.xr\", 2);
 user_pref(\"media.autoplay.default\", 5);
 user_pref(\"webgl.disabled\", true);
 user_pref(\"media.peerconnection.enabled\", false);
-user_pref(\"media.navigator.enabled\", false);"' >> /home/amnesia/.tor-browser/profile.default/user.js | tee -a /home/amnesia/Persistent/scripts/browser-preferences.sh
+user_pref(\"media.navigator.enabled\", false);" >> /home/amnesia/.tor-browser/profile.default/user.js` | tee -a /home/amnesia/Persistent/scripts/browser-preferences.sh
 
 chmod +x /home/amnesia/Persistent/scripts/browser-preferences.sh
 mkdir -p /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
