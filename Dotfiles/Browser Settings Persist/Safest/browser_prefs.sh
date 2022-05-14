@@ -2,7 +2,7 @@
 
 mkdir -p /home/amnesia/Persistent/scripts/
 
-cd Persistent/scripts/
+cd /home/amnesia/Persistent/scripts/
 
 touch browser-preferences.sh
 echo '#!/bin/bash 
