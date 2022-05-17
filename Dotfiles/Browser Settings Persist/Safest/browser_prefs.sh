@@ -24,7 +24,7 @@ mkdir -p /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
 cd /live/persistence/TailsData_unlocked/dotfiles/.config/autostart/
 touch browser-preferences.desktop
 echo '[Desktop Entry]
-Name=Browser Prefernces
+Name=Browser Preferences
 Type=Application
 Exec=/home/amnesia/Persistent/scripts/browser-preferences.sh
 Terminal=false
