@@ -10,7 +10,6 @@ echo "user_pref(\"extensions.torbutton.security_slider\", 1);
 user_pref(\"privacy.prioritizeonions.enabled\", true);
 user_pref(\"accessibility.force_disabled\", 1);
 user_pref(\"browser.toolbars.bookmarks.visibility\", \"always\");
-user_pref(\"extensions.torbutton.noscript_inited\", true);
 user_pref(\"permissions.default.camera\", 2);
 user_pref(\"permissions.default.desktop-notification\", 2);
 user_pref(\"permissions.default.geo\", 2);
