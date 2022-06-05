@@ -11,8 +11,6 @@
 
 - Show Boomark Toolbar
 
-- Noscript Enabled
-
 - Block Camera Permissions
 
 - Block Notifications Permissions
@@ -30,6 +28,8 @@
 ## To automate a dotfile just open terminal type `bash` before the `scripts_name.sh` for example $ `bash browser_prefs.sh`  
 
 **The safer script sets security level to *"Safer"* and fully disables WebRTC.**
+
+**The `no-homepage.sh` script/s sets No Homepage. Same homepage that TBB uses `about:tor` page.**
 
 **You can Add or Remove Browser Preferences by editing the `browser_prefs.sh` script in `/Persistent/scripts/`** 
 
